@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/elymiranda/tesi-2017-02.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://elymiranda@bitbucket.org/gildaswise/sif-api.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\git\tesi-2017-02" />
+    <option name="cloneParentDir" value="D:\git\sif-api" />
   </component>
 </application>
