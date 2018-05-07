@@ -1,22 +1,6 @@
-# coding: utf-8
-import requests, json
-key = 'sua chave'
-q = 'Prezados, boa tarde, gerem uma chave para a API.'
-target = 'en'
+import requests
+import json
+url = "https://api.vagalume.com.br/search.artmus?q=skank%20Vamos%20Fugir&limit=5"
 
-url = 'https://translation.googleapis.com/language/translate/v2'
-params = {'key':key, 'q':q, 'target':target}
-
-response = requests.get(url, params=params)
-'''
-print(response.json())
-{'data': {'translations': [{'detectedSourceLanguage': 'pt',
-    'translatedText': 'Dear, good afternoon, generate a key to the API..'}]}}
-'''
-
-json = response.json()
-print(json['data']['translations'][0]['translatedText'])
-
-
-
-
+request = requests.get(url)
+print(request.json())
